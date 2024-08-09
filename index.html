@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PaySlip</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+
+<body>
+    <div class="header">
+        <div>
+            <div class="title">Payslip</div>
+            <div>Employee Name</div>
+            <div class="address">
+                Address<br>
+                City<br>
+                Country<br>
+                Post Code
+            </div>
+        </div>
+        <div>
+            <img src="logo.png" alt="MediaNode Logo" class="company-logo">
+            <div class="address">
+                eduCentral<br>
+                Company Adress<br>
+                Lagos<br>
+                Post Code<br>
+                Nigeria
+            </div>
+        </div>
+    </div>
+
+    <div class="info-grid">
+        <div class="info-item">
+            <span class="info-label">Payroll Date</span>
+            <span class="info-value">25 Apr 22</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">NI Number</span>
+            <span class="info-value">JZ857668A</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Payment Period</span>
+            <span class="info-value">Monthly</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Tax Code</span>
+            <span class="info-value">S1257L</span>
+        </div>
+    </div>
+
+    <div class="tables-container">
+        <div class="table-wrapper">
+            <table>
+                <tr>
+                    <th>Payments</th>
+                    <th></th>
+                    <th>Deductions</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Basic Pay</td>
+                    <td>2,000.00</td>
+                    <td>Tax Deducted</td>
+                    <td>188.39</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Employee NI Contribution</td>
+                    <td>155.95</td>
+                </tr>
+                <tr class="total-row">
+                    <td>Total payments</td>
+                    <td>£2,000.00</td>
+                    <td>Total deductions</td>
+                    <td>£344.34</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <tr>
+                    <th colspan="2">Year to Date</th>
+                </tr>
+                <tr>
+                    <td>Gross Pay</td>
+                    <td>2,000.00</td>
+                </tr>
+                <tr>
+                    <td>Tax Paid</td>
+                    <td>188.39</td>
+                </tr>
+                <tr>
+                    <td>NI</td>
+                    <td>155.95*</td>
+                </tr>
+                <tr class="total-row">
+                    <td>Net pay</td>
+                    <td>£1,655.66</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
